@@ -1,64 +1,155 @@
 <!DOCTYPE html> <!--This is my first HTML file-->
 <html> 
     
-<head> 
+ <head> 
     <title>Cyb3rcode | Web Developer </title> 
-    <link rel="icon" href="Asset/Cyb3rcode(icon).png" type="image/png">
+    <link rel="icon" href="Asset/Johnwick(icon).png" type="image/png">
 
-</head> <!--End of head section which contains title and icon-->
-
-
-<body> <!--Beginning of body section which will be visible to users-->
-    <h1>Cyb3rcode</h1> 
-    <!--Navbar section-->
-<nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#work">Work</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-</nav>
+ </head> <!--End of head section which contains title and icon-->
 
 
-
-<!--Home section-->
-<section id="home">
-    <h2>Home</h2>
-    <p>First placeholder</p>
-</section>
+  <body> <!--Beginning of body section which will be visible to users-->
+    <header> 
+        <h1>Cyb3rcode</h1> 
 
 
-<!--About section-->
-<section id="about">
-    <h2>About</h2>
-    <p>Info about me</p>
-</section>
+      <!--Navbar section--> 
+     <nav> 
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work-skills">Work Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
 
-<!--Work section-->
-<section id="work">
-    <h2>Work</h2>
-    <p>My work or experience will go here</p>
-</section>
+    <main>
+
+            <!--Home section-->
+            <section id="home">
+            <h2>Home</h2>
+             <p>I'm Cyb3rcode, a beginner web developer. Welcome to my portfolio!<br/>
+                Explore my skills and projects below, with a video showing how far I have come.</p>
+            </section>
 
 
-<!--Resume section-->
-<section id="resume">
-    <h2>Resume</h2>
-    <p>My resume or skills will go here</p>
-</section>
+            <!--About section-->
+            <section id="about">
+                <h2>About</h2>
+                <p>Here is a video of what people say about me</p>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E7bmIK5WifU?si=mpSUmgJEqq4_PNfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-<!--Contact section-->
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Get in touch</p>
-</section>
+            </section>
 
 
-    </body>
+            <!--Work skills section-->
+            <section id="work-skills">
+                <h2>Work Skills</h2>
+                <p>My work or experience will go here</p>
+                <ul>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Using VS Code as a code editor</li>
+                    <li>Basic command line navigation</li>
+                </ul>
+            </section>
 
 
+            <!--Resume section-->
+            <section id="resume">
+                <h2>Resume</h2>
+                <p>My resume or skills will go here</p>
+                <table>
+                    <tr>
+                        <th>Experience</th>
+                        <th>Role</th>
+                        <th>Company</th>
+                    </tr>
+                    <tr>
+                        <td>2014-2023</td>
+                        <td>Web Developer</td>
+                        <td>The Continental Inc.</td>
+                    </tr>
+                    <tr>
+                        <td>2023-2026</td>
+                        <td>Grey Hat Hacker</td>
+                        <td>The High Table</td>
+                    </tr>    
+                </table><br/>
+
+                <table border="3">
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                        <th>Experience(Years)</th>
+                    </tr>
+                    <tr>
+                        <td>Git</td>
+                        <td>Intermediate</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Github</td>
+                        <td>Advanced</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Newbie</td>
+                        <td>1</td>
+                    </tr>
+                </table>    
+
+            </section>
+
+
+            <!--Contact section-->
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Get in touch</p>
+
+
+
+                <form> <!--Form section-->
+
+                    <label for="name">Name:</label> <br/>
+                    <input type="text" size="40" id="name" placeholder="John Wick"><br/><br/>
+
+                    <label for="email">Email:</label> <br/>
+                    <input type="email" size="50" id="email" placeholder="john.wick@thecontinental.com"><br/><br/>
+
+                    <label for="message">Message:</label><br/>
+                    <textarea id="message" rows="5" cols="50" placeholder="Hi I'm Winston Scott, the High Table needs your services again, are you back?"></textarea><br/><br/>
+
+                    <input type="submit" value="Send"> <br/><br/>
+                    <a href="https://wa.me/2348050409088?text=Hello Cyb3rcode, I visited your portfolio and would like to discuss a job and payment offer" target="_blank">
+                    <button type="button">Send via WhatsApp</button></a>
+
+
+
+                    
+                </form>
+            </section>
+
+    </main>
+
+
+
+        <!--Footer section-->
+    <footer>
+        
+           <p>&copy; 2026 Cyb3rcode. All rights reserved.</p>
+           <p>Github: <a href="https://github.com/Cyb3rc-de">Cyb3rc-de</a></p>
+
+
+    </footer>
+
+
+   </body>
 
 
 
